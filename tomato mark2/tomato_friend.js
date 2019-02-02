@@ -2,11 +2,23 @@
 
 // Make the DIV element draggable:
 
- var tom = document.getElementById("mydiv");
+var pants = document.getElementById("pants");
+var shorts = document.getElementById("shorts");
 
- console.log(tom)
+console.log(pants)
 
-dragElement(tom);
+dragElement(pants);
+dragElement(shorts);
+
+function showme(item) {
+  if (item.style.display === "inline") {
+    item.style.display = "none";
+  }
+  else {
+    item.style.display = "inline";
+  }
+
+}
 
 function dragElement(elmnt) {
     //  move the DIV from anywhere inside the DIV: 
