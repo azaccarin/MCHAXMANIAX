@@ -2,11 +2,23 @@
 
 // Make the DIV element draggable:
 
- var tom = document.getElementById("mydiv");
+ 
+ var notomato = document.getElementById("tomato");
+ var canvas = document.getElementById('myCanvas');
 
- console.log(tom)
+ var link = document.createElement('a');
+ link.innerHTML = 'save me!';
 
-dragElement(tom);
+//dragElement(tomato);
+
+window.onload = function() {
+	//var canvas = document.getElementById("frame");
+	var ctx = canvas.getContext("2d");
+	var tom = document.getElementById("tomato");
+	ctx.drawImage(tom, 10, 10);
+}
+
+
 
 function dragElement(elmnt) {
     //  move the DIV from anywhere inside the DIV: 
@@ -43,3 +55,12 @@ function dragElement(elmnt) {
     document.onmousemove = null;
   }
 }
+
+
+link.addEventListener('click', function(ev) {
+    link.href = canvas.toDataURL();
+    link.download = "mypainting.png";
+}, false);
+document.body.appendChild(link);
+
+

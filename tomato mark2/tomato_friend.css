@@ -2,7 +2,19 @@
 
 
 
-#mydiv {
+#tomato {
 	position: absolute;
+	/*top: 80px;
+  	left: 80px;*/
 	z-index: 9;
   } 
+
+#nose {
+	position: absolute;
+	z-index: 9;
+	display: none;
+}
+
+#myCanvas{
+	border: 5px solid rebeccapurple;
+}
