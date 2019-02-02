@@ -8,7 +8,6 @@ var canvas = document.getElementById("frame");
 var link = document.createElement('a');
     link.innerHTML = 'Save me !';
 
-console.log(pants)
 
 dragElement(pants);
 dragElement(shorts);
@@ -27,6 +26,14 @@ function showme(item) {
   else {
     item.style.display = "inline";
   }
+}
+
+function shiftTab(tab) {
+  let active = document.getElementsByClassName("menuItem");
+  active[tab].style.display = "inline";
+  var x = tab+1;
+  x = x % 2;
+  active[x].style.display = "none";
 }
 
 function dragElement(elmnt) {

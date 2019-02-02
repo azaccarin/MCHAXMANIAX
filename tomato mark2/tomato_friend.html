@@ -15,22 +15,20 @@
 
 <div id="items">
 	<div id="menu">
-		<button>Eyes</button>
-		<button>Clothing</button>
+		<button onclick="shiftTab(0)">Face</button>
+		<button onclick="shiftTab(1)">Clothing</button>
 	</div>
-	<div id="clothing">
+	<div class="menuItem">
+		<button onclick="showme(shorts)"><img class="btn" src="tomato.png"></button>
+	</div>
+	<div class="menuItem" id="clothing">
 		<button onclick="showme(shorts)"><img class="btn" src="shorts.png"></button>
 		<button onclick="showme(pants)"><img class="btn" src="pants.png"></button>
 	</div>
 </div>
 
-<div id="pants">
-	<img id="item_pants" src="pants.png">
-</div>
-
-<div id="shorts">
-	<img id="item_shorts" src="shorts.png">
-</div>
+<div id="pants"><img id="item_pants" src="pants.png"></div>
+<div id="shorts"><img id="item_shorts" src="shorts.png"></div>
 
 
 <script src="tomato_friend.js"></script>
