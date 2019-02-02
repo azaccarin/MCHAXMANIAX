@@ -4,6 +4,9 @@
 
 var pants = document.getElementById("pants");
 var shorts = document.getElementById("shorts");
+var canvas = document.getElementById("frame");
+var link = document.createElement('a');
+    link.innerHTML = 'Save me !';
 
 console.log(pants)
 
@@ -61,3 +64,12 @@ function dragElement(elmnt) {
     document.onmousemove = null;
   }
 }
+
+
+link.addEventListener('click', function(ev) {
+    link.href = canvas.toDataURL();
+    link.download = "mypainting.png";
+}, false);
+document.body.appendChild(link);
+
+
