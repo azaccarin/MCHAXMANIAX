@@ -14,6 +14,11 @@ dragElement(dragItem[1]);
 dragElement(dragItem[2]);
 dragElement(dragItem[3]);
 dragElement(dragItem[4]);
+dragElement(dragItem[5]);
+dragElement(dragItem[6]);
+dragElement(dragItem[7]);
+dragElement(dragItem[8]);
+dragElement(dragItem[9]);
 
 window.onload = function() {
   var canvas = document.getElementById("frame");
