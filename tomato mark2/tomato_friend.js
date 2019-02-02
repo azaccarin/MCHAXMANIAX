@@ -4,6 +4,9 @@
 
 var pants = document.getElementById("pants");
 var shorts = document.getElementById("shorts");
+var canvas = document.getElementById("frame");
+var link = document.createElement('a');
+    link.innerHTML = 'Save me !';
 
 console.log(pants)
 
