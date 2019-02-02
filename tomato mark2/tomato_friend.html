@@ -9,21 +9,26 @@
 
 <h1> TASK 1: dress the tomato friend </h1>
 
-<div id="clothing">
-	<button onclick="showme(shorts)">REVEAL SHORTS.</button>
-	<button onclick="showme(pants)">REVEAL PANTS.</button>
-</div>
+<canvas id="frame"></canvas>
+<img id="tomato" src="tomato.png" height= 300 px>
 
-<div id="tomato">
-	<img id="drag1" src="tomato.png" height= 300 px>
+<div id="items">
+	<div id="menu">
+		<button>Eyes</button>
+		<button>Clothing</button>
+	</div>
+	<div id="clothing">
+		<button onclick="showme(shorts)"><img class="btn" src="shorts.png"></button>
+		<button onclick="showme(pants)"><img class="btn" src="pants.png"></button>
+	</div>
 </div>
 
 <div id="pants">
-	<img id="drag2" src="pants.png">
+	<img id="item_pants" src="pants.png">
 </div>
 
 <div id="shorts">
-	<img id="drag3" src="shorts.png">
+	<img id="item_shorts" src="shorts.png">
 </div>
 
 

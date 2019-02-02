@@ -4,8 +4,30 @@ body {
 	background-image: linear-gradient(turquoise,blue,turquoise);
 }
 
-#clothing {
+#frame {
+	position: absolute;
+	float: left;
+}
+
+.menu button{
+	background-color: inherit;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+}
+
+#items {
 	float: right;
+	border: 5px ridge red;
+	background-color: white;
+	width: 200px;
+}
+
+.btn {
+	height: 50px;
+	width: 50px;
 }
 
 #tomato {
@@ -14,7 +36,7 @@ body {
 	width: 300px;
 	padding: 50px;
 	z-index: 1;
-  } 
+} 
 
 #pants {
 	position: absolute;
@@ -32,12 +54,12 @@ body {
 	display: none;
 }
 
-#drag2 {
+#item_pants {
 	height: 200px;
 	width: 500px;
 }
 
-#drag3 {
+#item_shorts {
 	height: 100px;
 	width: 500px;
 }

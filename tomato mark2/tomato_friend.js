@@ -10,6 +10,13 @@ console.log(pants)
 dragElement(pants);
 dragElement(shorts);
 
+window.onload = function() {
+  var canvas = document.getElementById("frame");
+  var ctx = canvas.getContext("2d");
+  var tom = document.getElementById("tomato");
+  ctx.drawImage(tom, 10, 10);
+}
+
 function showme(item) {
   if (item.style.display === "inline") {
     item.style.display = "none";
@@ -17,7 +24,6 @@ function showme(item) {
   else {
     item.style.display = "inline";
   }
-
 }
 
 function dragElement(elmnt) {
