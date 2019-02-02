@@ -2,15 +2,18 @@
 
 // Make the DIV element draggable:
 
-var pants = document.getElementById("pants");
-var shorts = document.getElementById("shorts");
+var dragItem = document.getElementsByClassName("item");
+
 var canvas = document.getElementById("frame");
 var link = document.createElement('a');
     link.innerHTML = 'Save me !';
 
 
-dragElement(pants);
-dragElement(shorts);
+dragElement(dragItem[0]);
+dragElement(dragItem[1]);
+dragElement(dragItem[2]);
+dragElement(dragItem[3]);
+dragElement(dragItem[4]);
 
 window.onload = function() {
   var canvas = document.getElementById("frame");
@@ -19,12 +22,12 @@ window.onload = function() {
   ctx.drawImage(tom, 10, 10);
 }
 
-function showme(item) {
-  if (item.style.display === "inline") {
-    item.style.display = "none";
+function showme(num) {
+  if (dragItem[num].style.display === "inline") {
+    dragItem[num].style.display = "none";
   }
   else {
-    item.style.display = "inline";
+    dragItem[num].style.display = "inline";
   }
 }
 

@@ -40,7 +40,7 @@ body {
 	display: none;
 }
 
-#items {
+#bigMenu {
 	float: right;
 	border: 5px ridge red;
 	background-color: white;
@@ -60,7 +60,7 @@ body {
 	z-index: 1;
 } 
 
-#pants {
+.item {
 	position: absolute;
 	left: 100px;
 	top: 100px;
@@ -68,20 +68,18 @@ body {
 	display: none;
 }
 
-#shorts {
-	position: absolute;
-	left: 100px;
-	top: 100px;
-	z-index: 3;
-	display: none;
-}
+#pants    {height: 200px; width: 500px;}
+#shorts   {height: 100px; width: 500px;}
+#eyebrows {height: 100px; width: 200px;}
+#eyes1    {height: 100px; width: 200px;}
+#eyes2    {height: 100px; width: 200px;}
 
-#item_pants {
-	height: 200px;
-	width: 500px;
-}
 
-#item_shorts {
-	height: 100px;
-	width: 500px;
-}
+
+
+
+
+
+
+
+
