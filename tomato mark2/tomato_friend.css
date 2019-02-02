@@ -1,8 +1,15 @@
 /* tomato friend css */
 
+body {
+	background-image: linear-gradient(turquoise,blue,turquoise);
+}
 
+#clothing {
+	float: right;
+}
 
 #tomato {
+<<<<<<< HEAD
 	position: absolute;
 	/*top: 80px;
   	left: 80px;*/
@@ -17,4 +24,37 @@
 
 #myCanvas{
 	border: 5px solid rebeccapurple;
+=======
+	border: 5px ridge red;
+	background-color: white;
+	width: 300px;
+	padding: 50px;
+	z-index: 1;
+  } 
+
+#pants {
+	position: absolute;
+	left: 100px;
+	top: 100px;
+	z-index: 2;
+	display: none;
+}
+
+#shorts {
+	position: absolute;
+	left: 100px;
+	top: 100px;
+	z-index: 3;
+	display: none;
+}
+
+#drag2 {
+	height: 200px;
+	width: 500px;
+}
+
+#drag3 {
+	height: 100px;
+	width: 500px;
+>>>>>>> 07a5ffba795fb2edb6d2932d672a8d5ffb00cf76
 }

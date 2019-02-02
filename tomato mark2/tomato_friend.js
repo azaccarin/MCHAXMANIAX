@@ -2,23 +2,23 @@
 
 // Make the DIV element draggable:
 
- 
- var notomato = document.getElementById("tomato");
- var canvas = document.getElementById('myCanvas');
+var pants = document.getElementById("pants");
+var shorts = document.getElementById("shorts");
 
- var link = document.createElement('a');
- link.innerHTML = 'save me!';
+console.log(pants)
 
-//dragElement(tomato);
+dragElement(pants);
+dragElement(shorts);
 
-window.onload = function() {
-	//var canvas = document.getElementById("frame");
-	var ctx = canvas.getContext("2d");
-	var tom = document.getElementById("tomato");
-	ctx.drawImage(tom, 10, 10);
+function showme(item) {
+  if (item.style.display === "inline") {
+    item.style.display = "none";
+  }
+  else {
+    item.style.display = "inline";
+  }
+
 }
-
-
 
 function dragElement(elmnt) {
     //  move the DIV from anywhere inside the DIV: 
