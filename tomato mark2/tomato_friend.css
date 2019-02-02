@@ -1,7 +1,7 @@
 /* tomato friend css */
 
 body {
-	background-image: linear-gradient(turquoise,blue,turquoise);
+	background-image: linear-gradient(#ffffff,#99bbff,#ffffff);
 }
 
 #frame {
@@ -13,6 +13,12 @@ body {
 	overflow: hidden;
 	border: 1px solid red;
 	background-color: tomato;
+}
+
+#wolf{
+	position: absolute;
+	left: 800px;
+	top: 350px;
 }
 
 /* Style the buttons that are used to open the tab content */
