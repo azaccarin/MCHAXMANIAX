@@ -67,7 +67,7 @@ function dragElement(elmnt) {
 
 
 link.addEventListener('click', function(ev) {
-    link.href = canvas.toDataURL();
+	link.href = canvas.toDataURL();
     link.download = "mypainting.png";
 }, false);
 document.body.appendChild(link);
