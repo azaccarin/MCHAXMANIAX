@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title></title>
-	<script src="tomato_friend.js"></script>
 	<link rel="stylesheet" type="text/css" href="tomato_friend.css">
 </head>
 <body>
 
-<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
-	<p>hello</p>
+<h1> Drag the tomato friend </h1>
+
+
+<div id="mydiv">
+	<img id="drag1" src="tomato.png" height= 300 px>
+	<!--p draggable="true">This is a draggable paragraph.</p-->
 </div>
 
-<img id="drag1" src="tomato.png" draggable="true" ondragstart="drag(event)" height= 300 px>
+<script src="tomato_friend.js"></script>
 
 </body>
 </html>
