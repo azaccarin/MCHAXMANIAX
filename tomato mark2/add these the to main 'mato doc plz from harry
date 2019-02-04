@@ -1,0 +1,43 @@
+#BlockChain{
+	position: absolute;
+	animation-name:an1;
+	animation-duration: 10s;
+	animation-iteration-count: 5000;
+}
+
+@keyframes an1 {
+  0%   {left:200px; top:0px;}
+  33%   {left:400px; top:300px;}
+  58%   {left:800px; top:600px;}
+  89%   {left:400px; top:300px;}
+  100%   {left:200px; top:0px;}
+  
+}
+
+#MachineLearning{
+	position: absolute;
+	z-index: 1;
+	animation-name:an2;
+	animation-duration: 15s;
+	animation-iteration-count: 5000;
+}	
+@keyframes an2 {
+  0%   {left:0px; top:0px;}
+  25%   {left:0px; top:800px;}
+  50%   {left:100px; top:200px;}
+  75%   {left:700px; top:600px;}
+  100%   {left:0px; top:0px;}
+}
+
+#Synergy{
+	position: absolute;
+	z-index: 1;
+	animation-name:an3;
+	animation-duration: 20s;
+	animation-iteration-count: 5000;
+}
+@keyframes an3 {
+  0%   {left:0px; top:400px;}
+  44%   {left:700px; top:400px;}
+  100%  {left: 0px; top:400px;}
+}
