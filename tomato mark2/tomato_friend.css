@@ -1,7 +1,7 @@
 /* tomato friend css */
 
 body {
-	background-image: linear-gradient(#ffffff,#99bbff,#ffffff);
+	background-image: linear-gradient(#e6ff99,#99cc00,#e6ff99);
 }
 
 #frame {
@@ -34,12 +34,12 @@ body {
 
 /* Change background color of buttons on hover */
 #menu button:hover {
-	background-color: red;
+	background-color: tomato;
 }
 
 /* Create an active/current tablink class */
 #menu button.active {
-	background-color: red;
+	background-color: tomato;
 }
 
 #clothing {
@@ -48,7 +48,7 @@ body {
 
 #bigMenu {
 	float: right;
-	border: 5px ridge red;
+	border: 5px ridge tomato;
 	background-color: white;
 	width: 200px;
 }
@@ -59,23 +59,24 @@ body {
 }
 
 #tomato {
-	border: 5px ridge red;
-	background-color: white;
+	border: 5px ridge tomato;
+	background-image: linear-gradient(#e6ff99,#99cc00,#e6ff99);
+	/*background-color: white;*/
 	width: 300px;
-	padding: 50px;
+	padding: 100px;
 	z-index: 1;
 } 
 
 .item {
 	position: absolute;
-	left: 100px;
-	top: 100px;
+	right: 400px;
+	top: 250px;
 	z-index: 2;
 	display: none;
 }
 
 #pants    {height: 200px; width: 500px;}
-#shorts   {height: 100px; width: 500px;}
+#shorts   {height: 150px; width: 500px;}
 #eyebrows {height: 100px; width: 200px;}
 #eyes1    {height: 100px; width: 200px;}
 #eyes2    {height: 100px; width: 200px;}
@@ -84,9 +85,9 @@ body {
 #eyes5    {height: 100px; width: 200px;}
 #mouth1   {height: 70px; width: 200px;}
 #nose     {height: 90px; width: 70px;}
-#bowler   {height: 200px; width: 400px;}
+#bowler   {height: 200px; }
 #cowboy   {height: 200px; width: 400px;}
-#snapback {height: 200px; width: 400px;}
+#snapback {height: 200px; width: 300px;}
 
 
 
